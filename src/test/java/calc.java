@@ -1,5 +1,5 @@
 public class calc {
-    public static void main(String args[]){
+    public static void main(String[] args) {
 
         int x = 19;
         int y = 2;
