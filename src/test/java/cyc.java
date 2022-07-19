@@ -1,5 +1,5 @@
 public class cyc {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // boolean
         int a = 1;
         int b = 2;
