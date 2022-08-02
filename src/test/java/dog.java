@@ -1,12 +1,20 @@
-public class Dog {
+public class dog {
     String breed;
     String name;
     int age;
     int paws;
 
 
+    public static void say(){ //method created
+        System.out.println("woof");
+
+    }
+    public static void sit() { //method created
+        System.out.println("sit");
+
+    }
     public static void main(String[] args) {
-        Dog Brownie = new Dog();
+        dog Brownie = new dog();
         Brownie.breed = "pincher";
         Brownie.name = "Brownie";
         Brownie.age = 6;
@@ -14,8 +22,12 @@ public class Dog {
 
         System.out.println(Brownie.name + " " + Brownie.age);
 
+        Brownie.say(); //method output
+        Brownie.sit(); //method output
+
 
     }
+
 }
 
 /** Without parameters:
